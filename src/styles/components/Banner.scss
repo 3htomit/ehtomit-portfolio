@@ -1,0 +1,24 @@
+@import '../main/colors';
+
+.banner {
+  width: 100vw;
+  height: 170px;
+  position: relative;
+  button {
+    color: $keppel;
+    background-color: $white;
+    padding: 0 10px;
+    border-radius: 11px;
+    height: 25px;
+  }
+  .prev-btn {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+  }
+  .next-btn  {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}
