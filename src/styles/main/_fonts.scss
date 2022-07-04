@@ -1,0 +1,65 @@
+@import 'colors';
+
+body {
+  // HEADER FONTS
+  // Main title
+  h1 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 90px;
+    color: $gold;
+  }
+  // Main sub-title
+  h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: $white;
+    margin: auto;
+  }
+  // Title
+  h3 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 65px;
+    color: $gold;
+    margin: auto;
+  }
+  // Sub-title
+  h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: $white;
+  }
+  // Logo name
+  h5 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 40px;
+    color: $white;
+    margin: auto;
+  }
+
+  // PARGRAPH FONTS
+  // Paragraph
+  p, button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    color: $grey-100;
+  }
+  // Strong paragraph
+  strong {
+    font-weight: 700;
+  }
+  // Info
+  em {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  // Tags
+  p {
+    .tags {
+      font-family: 'La Belle Aurore', cursive;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+}
